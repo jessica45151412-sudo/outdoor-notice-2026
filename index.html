@@ -1,0 +1,32 @@
+<! DOCTYPE html>
+<html >
+<head>
+‹meta charset="UTF-8" >
+<title>弹窗广告2026</title>
+‹script>
+// 解析Major+Minor触发
+const triggerMajor =
+9999；
+const triggerMinor = 8888;
+if
+(window. location.search. includes ("trigger"
+））｛
+document. body.innerHTML = '<h1>£*;&
+过！</h1><p>前方2026弹窗广告！</p><ahref="https:// 你的其他链接"
+style= "color:red； ">洋情く/a>"；
+} else if ("beacon" in navigator &&
+navigator.beacon) {
+navigator.beacon.getBeacons ().then (beacons
+=＞
+｛
+if (beacons. length && beacons.major === triggerMajor &&
+beacons minor === triggerMinor) {
+window. location.href = 'https://
+你的用户名.github.io/outdoor-notice-2026/？
+trigger=true;
+｝）；
+｝
+</script>
+</head>
+‹body></body>
+</html>
